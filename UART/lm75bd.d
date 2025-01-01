@@ -1,0 +1,10 @@
+.\lm75bd.o: LM75BD.c
+.\lm75bd.o: LM75BD.h
+.\lm75bd.o: ..\Common\inc\LPC11xx.h
+.\lm75bd.o: ..\Common\inc\core_cm0.h
+.\lm75bd.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\lm75bd.o: ..\Common\inc\system_LPC11xx.h
+.\lm75bd.o: I2C.h
+.\lm75bd.o: UART.h
+.\lm75bd.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdio.h
+.\lm75bd.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\string.h

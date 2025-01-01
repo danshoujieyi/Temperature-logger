@@ -1,0 +1,17 @@
+.\main.o: Source\main.c
+.\main.o: ..\Common\inc\LPC11xx.h
+.\main.o: ..\Common\inc\core_cm0.h
+.\main.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\main.o: ..\Common\inc\system_LPC11xx.h
+.\main.o: .\Music.h
+.\main.o: .\Delay.h
+.\main.o: .\I2C.h
+.\main.o: .\DS1307.h
+.\main.o: .\LM75BD.h
+.\main.o: .\OLED.h
+.\main.o: .\UART.h
+.\main.o: .\DS18B20.h
+.\main.o: .\SSPI1.h
+.\main.o: .\XT25F02.h
+.\main.o: .\LED.h
+.\main.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdio.h

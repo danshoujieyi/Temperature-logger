@@ -1,0 +1,27 @@
+*** Creating Trace Output File 'UART.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"system_lpc11xx.o"'
+### List of Objects: adding '"core_cm0.o"'
+### List of Objects: adding '".\startup_lpc11xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"clkconfig.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"timer16.o"'
+### List of Objects: adding '"timer32.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 "system_lpc11xx.o" "core_cm0.o" ".\startup_lpc11xx.o" "main.o" "uart.o" "clkconfig.o" "gpio.o" "timer16.o" "timer32.o" --library_type=microlib --strict --scatter "UART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UART.map" -o "UART.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'UART.axf'
+### ADS-LD Command File: 'UART.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'UART.lnp', Handle=0x00000258
+### Writing '.lnp' file
+### ADS-LD Command file 'UART.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

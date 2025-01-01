@@ -1,0 +1,121 @@
+Dependencies for Project 'UART', Target 'UART_Release': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\Common\src\system_LPC11xx.c)(0x67129756)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\system_lpc11xx.o --omf_browse .\system_lpc11xx.crf --depend .\system_lpc11xx.d)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+F (..\Common\src\core_cm0.c)(0x4B673090)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\core_cm0.o --omf_browse .\core_cm0.crf --depend .\core_cm0.d)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (..\Common\src\startup_LPC11xx.s)(0x4B636B36)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list .\startup_lpc11xx.lst --xref -o .\startup_lpc11xx.o --depend .\startup_lpc11xx.d)
+F (.\Source\main.c)(0x676E53BC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (.\Music.h)(0x676E50ED)
+I (.\Delay.h)(0x676C4348)
+I (.\I2C.h)(0x676D7B7E)
+I (.\DS1307.h)(0x676D97EB)
+I (.\LM75BD.h)(0x676D7D68)
+I (.\OLED.h)(0x676D7AD3)
+I (.\UART.h)(0x676D7B11)
+I (.\DS18B20.h)(0x676D7BC3)
+I (.\SSPI1.h)(0x676D7B53)
+I (.\XT25F02.h)(0x676D7B41)
+I (.\LED.h)(0x676DA434)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (.\AD_UART.c)(0x676C3215)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\ad_uart.o --omf_browse .\ad_uart.crf --depend .\ad_uart.d)
+F (.\AD_UART.h)(0x676AC05B)()
+F (.\Music.c)(0x676E50B9)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\music.o --omf_browse .\music.crf --depend .\music.d)
+I (Music.h)(0x676E50ED)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (Delay.h)(0x676C4348)
+F (.\Music.h)(0x676E50ED)()
+F (.\OLED.c)(0x676D7AB7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\oled.o --omf_browse .\oled.crf --depend .\oled.d)
+I (OLED.h)(0x676D7AD3)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (OLED_Font.h)(0x676C43C3)
+I (Delay.h)(0x676C4348)
+I (I2C.h)(0x676D7B7E)
+F (.\OLED.h)(0x676D7AD3)()
+F (.\OLED_Font.h)(0x676C43C3)()
+F (.\Delay.c)(0x676D7DC7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (Delay.h)(0x676C4348)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+F (.\Delay.h)(0x676C4348)()
+F (.\I2C.c)(0x676D7C20)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (I2C.h)(0x676D7B7E)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+F (.\I2C.h)(0x676D7B7E)()
+F (.\DS1307.c)(0x676D97EF)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\ds1307.o --omf_browse .\ds1307.crf --depend .\ds1307.d)
+I (DS1307.h)(0x676D97EB)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (I2C.h)(0x676D7B7E)
+F (.\DS1307.h)(0x676D97EB)()
+F (.\LM75BD.c)(0x676D8E55)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\lm75bd.o --omf_browse .\lm75bd.crf --depend .\lm75bd.d)
+I (LM75BD.h)(0x676D7D68)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (I2C.h)(0x676D7B7E)
+I (UART.h)(0x676D7B11)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+F (.\LM75BD.h)(0x676D7D68)()
+F (.\UART.c)(0x676D8112)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (UART.h)(0x676D7B11)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (.\UART.h)(0x676D7B11)()
+F (.\DS18B20.c)(0x676D7DBA)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\ds18b20.o --omf_browse .\ds18b20.crf --depend .\ds18b20.d)
+I (DS18B20.h)(0x676D7BC3)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (Delay.h)(0x676C4348)
+F (.\DS18B20.h)(0x676D7BC3)()
+F (.\XT25F02.c)(0x676D7C4C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\xt25f02.o --omf_browse .\xt25f02.crf --depend .\xt25f02.d)
+I (XT25F02.h)(0x676D7B41)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (SSPI1.h)(0x676D7B53)
+I (Delay.h)(0x676C4348)
+F (.\XT25F02.h)(0x676D7B41)()
+F (.\SSPI1.c)(0x676D7C09)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\sspi1.o --omf_browse .\sspi1.crf --depend .\sspi1.d)
+I (SSPI1.h)(0x676D7B53)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+F (.\SSPI1.h)(0x676D7B53)()
+F (.\LED.c)(0x676DAC2E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (LED.h)(0x676DA434)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (Delay.h)(0x676C4348)
+F (.\LED.h)(0x676DA434)()

@@ -1,0 +1,9 @@
+.\oled.o: OLED.c
+.\oled.o: OLED.h
+.\oled.o: ..\Common\inc\LPC11xx.h
+.\oled.o: ..\Common\inc\core_cm0.h
+.\oled.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\oled.o: ..\Common\inc\system_LPC11xx.h
+.\oled.o: OLED_Font.h
+.\oled.o: Delay.h
+.\oled.o: I2C.h

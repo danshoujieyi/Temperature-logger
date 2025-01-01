@@ -1,0 +1,22 @@
+Dependencies for Project 'UART', Target 'UART_Debug': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\Common\src\system_LPC11xx.c)(0x67129756)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I . -I ..\Common\inc-I.\RTE\_UART_Debug-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_RAM-o .\obj\system_lpc11xx.o --omf_browse .\obj\system_lpc11xx.crf --depend .\obj\system_lpc11xx.d)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+F (..\Common\src\core_cm0.c)(0x4B673090)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I . -I ..\Common\inc-I.\RTE\_UART_Debug-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_RAM-o .\obj\core_cm0.o --omf_browse .\obj\core_cm0.crf --depend .\obj\core_cm0.d)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (..\Common\src\startup_LPC11xx.s)(0x4B636B36)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_UART_Debug-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list .\lst\startup_lpc11xx.lst --xref -o .\obj\startup_lpc11xx.o --depend .\obj\startup_lpc11xx.d)
+F (.\Source\main.c)(0x676AB4EB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I . -I ..\Common\inc-I.\RTE\_UART_Debug-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_RAM-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (.\AD_UART.h)(0x676AB4EB)
+I (.\IIC.h)(0x676AB433)
+F (.\AD_UART.c)(0x676AB4EB)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I . -I ..\Common\inc-I.\RTE\_UART_Debug-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_RAM-o .\obj\ad_uart.o --omf_browse .\obj\ad_uart.crf --depend .\obj\ad_uart.d)
+F (.\AD_UART.h)(0x676AB4EB)()
+F (.\IIC.c)(0x676AB433)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I . -I ..\Common\inc-I.\RTE\_UART_Debug-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_RAM-o .\obj\iic.o --omf_browse .\obj\iic.crf --depend .\obj\iic.d)
+F (.\IIC.h)(0x676AB433)()
+F (..\COMMON\INC\UART.H)(0x676AB4AB)()
