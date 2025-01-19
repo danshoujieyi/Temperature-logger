@@ -507,7 +507,8 @@ void PassiveBuzzer_ON(void)
 	LPC_TMR16B1->TCR = 0x01;  // 使能 16 位定时器1
 	 LPC_SYSCON->SYSAHBCLKCTRL |= (1UL << 8);  
 	LPC_SYSCON->SYSAHBCLKCTRL &= ~(1<<16);   // 禁能GPIO时钟, 保证低功耗
-	PassiveBuzzer_Set_Freq_Duty(Tone_Index[Music_Lone_Brave[5][0]][Music_Lone_Brave[5][1]], 50);
+   LPC_TMR16B1->MR3 = SystemCoreClock / 1000 -1;  // 设置 MR3 为 1ms
+   LPC_TMR16B1->MR1 = LPC_TMR16B1->MR3 * 50 / 100;                // 在 PWM1 模式占空比
 	
 }
 

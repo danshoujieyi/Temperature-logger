@@ -1,0 +1,12 @@
+.\stm32_u8g2.o: stm32_u8g2.c
+.\stm32_u8g2.o: stm32_u8g2.h
+.\stm32_u8g2.o: ..\Common\inc\lpc11xx.h
+.\stm32_u8g2.o: ..\Common\inc\core_cm0.h
+.\stm32_u8g2.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32_u8g2.o: ..\Common\inc\system_LPC11xx.h
+.\stm32_u8g2.o: ..\u8g2\u8g2.h
+.\stm32_u8g2.o: ..\u8g2\u8x8.h
+.\stm32_u8g2.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdarg.h
+.\stm32_u8g2.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stddef.h
+.\stm32_u8g2.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\limits.h
+.\stm32_u8g2.o: Music.h

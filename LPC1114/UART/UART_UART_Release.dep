@@ -1,0 +1,16 @@
+Dependencies for Project 'UART', Target 'UART_Release': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\Common\src\system_LPC11xx.c)(0x67129756)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\system_lpc11xx.o --omf_browse .\system_lpc11xx.crf --depend .\system_lpc11xx.d)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+F (..\Common\src\core_cm0.c)(0x4B673090)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\core_cm0.o --omf_browse .\core_cm0.crf --depend .\core_cm0.d)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (..\Common\src\startup_LPC11xx.s)(0x4B636B36)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list .\startup_lpc11xx.lst --xref -o .\startup_lpc11xx.o --depend .\startup_lpc11xx.d)
+F (.\Source\main.c)(0x677815C0)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I . -I ..\Common\inc -I ..\u8g2-I.\RTE\_UART_Release-II:\Keil5\keil5_packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-II:\Keil5\keil5_packs\Keil\LPC1100_DFP\1.4.1\Device\Include\LPC11xx-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__DEBUG_FLASH-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\Common\inc\LPC11xx.h)(0x67129753)
+I (..\Common\inc\core_cm0.h)(0x673325E5)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Common\inc\system_LPC11xx.h)(0x67129864)
+I (I:\Keil5\keil5_mdk\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)

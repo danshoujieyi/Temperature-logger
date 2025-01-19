@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "TIMER32.C": "cpp",
+        "lpc11xx.h": "c",
+        "LPC11XX.H": "cpp",
+        "string.h": "c"
+    }
+}

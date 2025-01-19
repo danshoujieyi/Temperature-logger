@@ -13,8 +13,6 @@ void I2C_Init(uint8_t Mode)
 	 /*--- Reset registers ---*/
 	if(Mode == 1)
 	{
-	 LPC_IOCON->PIO0_4 |= (0x1<<9);
-	 LPC_IOCON->PIO0_5 |= (0x1<<9);
 	 LPC_I2C->SCLL   = I2SCLL_HS_SCLL;
 	 LPC_I2C->SCLH   = I2SCLH_HS_SCLH;
 	}

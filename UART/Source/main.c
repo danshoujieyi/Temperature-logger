@@ -18,7 +18,7 @@ uint8_t Temp_Buf[8] = {0};
 uint8_t Date[10] = {0};
 uint8_t Time_Data[10] = {0};
 uint8_t Week[1] = {0};
-uint8_t Time[7] = {0x50, 0x13, 0x15, 0x05, 0x27, 0x12, 0x24}; // 秒，分，时，星期，日，月，年
+uint8_t Time[7] = {0x50, 0x13, 0x15, 0x05, 0x03, 0x01, 0x25}; // 秒，分，时，星期，日，月，年
 uint8_t data[7] = {0};
 
 uint8_t Write_Addr[16] = {0}; //写
@@ -64,32 +64,29 @@ void Menu(void)
 
 void Temperature_Judgment(float T)
 {
-	if (T>28){
+	if (T>30){
 		PassiveBuzzer_ON();
-		LPC_GPIO2->DATA &= ~(1UL << 10); // 将对应位设置为高电平，点亮 LED
-		LPC_GPIO2->DATA &= ~(1UL << 9); // 将对应位设置为高电平，点亮 LED
-		LPC_GPIO2->DATA &= ~(1UL << 8); // 将对应位设置为高电平，点亮 LED
-		LPC_GPIO1->DATA &= ~(1UL << 10); // 将对应位设置为高电平，点亮 LED
+		LPC_GPIO2->DATA &= ~(1UL << 10); 
+		LPC_GPIO2->DATA &= ~(1UL << 9); 
+		LPC_GPIO2->DATA &= ~(1UL << 8); 
+		LPC_GPIO1->DATA &= ~(1UL << 10); 
         
 	}
 	else if(0< T <=10){
-		LPC_GPIO2->DATA |= (1UL << 10); // 将对应位设置为高电平，点亮 LED
-		LPC_GPIO2->DATA |= (1UL << 9); // 将对应位设置为高电平，点亮 LED
-		// LPC_GPIO2->DATA |= (1UL << 8); // 将对应位设置为高电平，点亮 LED
+		LPC_GPIO2->DATA |= (1UL << 10);
+		LPC_GPIO2->DATA |= (1UL << 9);
 		PassiveBuzzer_OFF();
 		RGB_Green_Toggle();
 	}
 	else if(10< T <=20){
-		// LPC_GPIO2->DATA |= (1UL << 10); // 将对应位设置为高电平，点亮 LED
-		LPC_GPIO2->DATA |= (1UL << 9); // 将对应位设置为高电平，点亮 LED
-		LPC_GPIO2->DATA |= (1UL << 8); // 将对应位设置为高电平，点亮 LED
+		LPC_GPIO2->DATA |= (1UL << 9); 
+		LPC_GPIO2->DATA |= (1UL << 8); 
 		PassiveBuzzer_OFF();
 		RGB_Blue_Toggle();
 	}
 	else if(20< T <=30){
-		LPC_GPIO2->DATA |= (1UL << 10); // 将对应位设置为高电平，点亮 LED
-		// LPC_GPIO2->DATA |= (1UL << 9); // 将对应位设置为高电平，点亮 LED
-		LPC_GPIO2->DATA |= (1UL << 8); // 将对应位设置为高电平，点亮 LED
+		LPC_GPIO2->DATA |= (1UL << 10); 
+		LPC_GPIO2->DATA |= (1UL << 8); 
 		PassiveBuzzer_OFF();
 		RGB_Red_Toggle();
 	}
@@ -144,6 +141,7 @@ void UART_Send_Date(void)
 	UART_Send(" \n",2);
 }
 
+
 /******************************************************************
  * 函数名: TMR32B0_Init
  * 描述:初始化32位定时器0，开启定时器匹配中断。
@@ -182,7 +180,7 @@ void TIMER32_0_IRQHandler(void) {
 		
 		XT25_EraseSector();//芯片擦除
         SPI1_Write_FLASH(Temp_Buf,8); //  发送温度 以转换好的数组的形式发送 到xt52
-
+		
 		LPC_TMR32B0->IR = 0x01; // 清除MR0中断标志
     }
 }
@@ -201,7 +199,7 @@ int main()
 	T16B0_init();
 	TMR32B0_Init();  //中断子程序
 	RGB_LED_Init();
-	 // DS1307Init(); 	// 第一次烧录时调用，用于校准时间
+    DS1307Init(); 	// 第一次烧录时调用，用于校准时间
 	DS1307_Read();
 	SPI1_Read_FLASH(Temp_Buf,8);
 	OLED_Init();

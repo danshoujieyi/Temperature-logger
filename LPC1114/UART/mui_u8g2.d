@@ -1,0 +1,10 @@
+.\mui_u8g2.o: ..\u8g2\mui_u8g2.c
+.\mui_u8g2.o: ..\u8g2\mui.h
+.\mui_u8g2.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stddef.h
+.\mui_u8g2.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\mui_u8g2.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\string.h
+.\mui_u8g2.o: ..\u8g2\u8g2.h
+.\mui_u8g2.o: ..\u8g2\u8x8.h
+.\mui_u8g2.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdarg.h
+.\mui_u8g2.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\limits.h
+.\mui_u8g2.o: ..\u8g2\mui_u8g2.h

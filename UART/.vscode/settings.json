@@ -3,6 +3,9 @@
         "TIMER32.C": "cpp",
         "lpc11xx.h": "c",
         "LPC11XX.H": "cpp",
-        "string.h": "c"
+        "string.h": "c",
+        "stdio.h": "c",
+        "i2c.h": "c",
+        "lm75bd.h": "c"
     }
 }

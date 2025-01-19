@@ -84,30 +84,3 @@ int fputc(int ch, FILE *f)
 }
 
 
-//uint16_t buf_p = 0;
-//uint32_t Recive_Buf[100] = {0};
-//void UART_IRQHandler(){
-//    switch(LPC_UART->IIR & 0x0F){
-//        case 0x04: //RDA
-//            for(int i=0;i<8;i++){
-//              Recive_Buf[buf_p++] = LPC_UART->RBR; //接受数据
-//                    
-//            }
-//        break;
-//            
-//        case 0x0c: //CTI
-//            while((LPC_UART->LSR & 0x01) == 1){
-//              Recive_Buf[buf_p] = LPC_UART->RBR;//接受数据
-//                if( Recive_Buf[buf_p] == 0xff){//从XT52里面读取已经保存好的温度        
-//                   // SPI1_Read_FLASH(data,7);
-//                   // UART_Send("Temputerature=",14);
-//                   // UART_Send(data,7);  //发送温度到pc
-//                   // 发送换行
-//                   // UART_Send_Byte(0x0d);
-//                   // UART_Send_Byte(0x0a);
-//                }                   
-//                buf_p++;
-//            }
-//        break;
-//    }  
-//}

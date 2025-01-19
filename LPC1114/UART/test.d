@@ -1,0 +1,13 @@
+.\test.o: test.c
+.\test.o: test.h
+.\test.o: ..\Common\inc\lpc11xx.h
+.\test.o: ..\Common\inc\core_cm0.h
+.\test.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\test.o: ..\Common\inc\system_LPC11xx.h
+.\test.o: ..\u8g2\u8g2.h
+.\test.o: ..\u8g2\u8x8.h
+.\test.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stdarg.h
+.\test.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\stddef.h
+.\test.o: I:\Keil5\keil5_mdk\ARM\ARMCC\Bin\..\include\limits.h
+.\test.o: Music.h
+.\test.o: stm32_u8g2.h

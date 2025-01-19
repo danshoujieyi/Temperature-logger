@@ -10,8 +10,7 @@
                 "I:\\Keil5\\keil5_mdk\\ARM\\ARMCC\\include\\arm_linux_compat",
                 "I:\\Keil5\\keil5_mdk\\ARM\\ARMCC\\include\\rw",
                 "c:\\Users\\liujiajun\\Desktop\\LPC1114\\Common\\src",
-                "c:\\Users\\liujiajun\\Desktop\\LPC1114\\UART\\Source",
-                "c:\\Users\\liujiajun\\Desktop\\LPC1114\\COMMON\\INC"
+                "c:\\Users\\liujiajun\\Desktop\\LPC1114\\UART\\Source"
             ],
             "defines": [
                 "__DEBUG_RAM",
@@ -95,13 +94,13 @@
             "includePath": [
                 "c:\\Users\\liujiajun\\Desktop\\LPC1114\\UART",
                 "c:\\Users\\liujiajun\\Desktop\\LPC1114\\Common\\inc",
+                "c:\\Users\\liujiajun\\Desktop\\LPC1114\\u8g2",
                 "I:\\Keil5\\keil5_mdk\\ARM\\ARMCC\\include",
                 "I:\\Keil5\\keil5_mdk\\ARM\\ARMCC\\include\\arm_linux",
                 "I:\\Keil5\\keil5_mdk\\ARM\\ARMCC\\include\\arm_linux_compat",
                 "I:\\Keil5\\keil5_mdk\\ARM\\ARMCC\\include\\rw",
                 "c:\\Users\\liujiajun\\Desktop\\LPC1114\\Common\\src",
-                "c:\\Users\\liujiajun\\Desktop\\LPC1114\\UART\\Source",
-                "c:\\Users\\liujiajun\\Desktop\\LPC1114\\COMMON\\INC"
+                "c:\\Users\\liujiajun\\Desktop\\LPC1114\\UART\\Source"
             ],
             "defines": [
                 "__DEBUG_FLASH",
